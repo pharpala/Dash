@@ -2,32 +2,40 @@
 
 ## Project Description
 
-This is a basic game I created using Java, specifically using JavaFX libraries. It's a simple game where you must dodge the obstacles and collect coins to increase your score. The game keeps track of your highscore, so you can keep playing until you beat your personal best!
+Welcome to Dash, a Java-based game developed using JavaFX libraries. Dash offers a straightforward yet engaging gaming experience where players navigate obstacles, collect coins to boost their score, and strive to surpass their personal best. The game's intuitive design ensures an enjoyable experience for players of all skill levels.
 
 ## Gameplay/Scenes
 
-This is the **title screen**, this is the screen that it brings you to when you first run the game and play again after you die. You can also check the controls and current high score (local):
+### Title Screen
+
+Upon launching the game or restarting after a session, you'll be greeted by the **title screen**. Here, you can explore controls, view the current local high score, and prepare for the exciting gaming adventure!
 
 ![Title Screen Image](https://raw.githubusercontent.com/pharpala/Dash/master/samples/titleScreen.png "Sample Title Screen")
 
-This is the **character select screen**, this is where you enter your name and select your character. The character do not have anything unique about them besides then having their own styles! You also must enter your name here, this name cannot be blank and cannot contain a "=". This is the name that is associated with your score.
+### Character Select Screen
+
+Customize your experience by entering your name and selecting a character from three unique styles. Your chosen name is associated with your score, adding a personal touch to your Dash journey.
 
 ![Character Select Image](https://raw.githubusercontent.com/pharpala/Dash/master/samples/characterSelectScreen.png "Sample Character Select Screen")
 
-This is sample **gameplay**. It starts off slower than it shows in this gif, with the speed increasing as your score goes up. The speed reaches it's max at 40 score (this gif shows the max speed):
+### Gameplay
+
+Experience Dash through dynamic gameplay. The game starts at an easy pace, progressively accelerating as your score increases. The maximum speed is at 40 points, only the best survive till then!
 
 ![Gameplay Sample](https://raw.githubusercontent.com/pharpala/Dash/master/samples/gameplaySample.gif "End Screen Sample")
 
-Finally, this is the **end screen** when you die in the game. You can either play again or exit the game:
+### End Screen
+
+When your adventure ends, the end screen provides options to play again or exit the game. See your performance and decide whether you have another round in you.
 
 ![End Screen Image](https://raw.githubusercontent.com/pharpala/Dash/master/samples/endScreen.png "End Screen Sample")
 
 ## Project Specifications
 
-* This project was created and tested using [JavaFX SDK 18.0.2 libraries](https://gluonhq.com/products/javafx/).
-* The JDK used during production and testing was [JDK version 18.0.2.1](https://www.oracle.com/java/technologies/downloads/).
+* Developed and tested using [JavaFX SDK 18.0.2 libraries](https://gluonhq.com/products/javafx/).
+* Used [JDK version 18.0.2.1](https://www.oracle.com/java/technologies/downloads/) during production and testing.
 
-# Download
+## Download
 
 ## Operating System
 
@@ -38,13 +46,13 @@ Windows download: [Dash.zip](https://raw.githubusercontent.com/pharpala/Dash/mas
 1. Download the [JDK version 18.0.2.1](https://www.oracle.com/java/technologies/downloads/). Skip this if you already have it
 2. Download the zip file according to your operating system.
 3. Extract the zip file to a location of your choosing.
-4. Open the run.bat file that is in Dash folder that you extracted. Windows Defender might step in here saying the file is not trustworthy. In this case, click "More Info" and click "Run anyway" (You can trust me).
+4. Open the run.bat file that is in Dash folder that you extracted. Windows Defender might step in here saying the file is not trustworthy. In this case, click "More Info" and click "Run anyway" (I promise I´m not an hacker).
 
 At this point the game should run and you can play away!
 
-# Troubleshooting
+## Troubleshooting
 
-## Java is not dealing with your `.jar` files
+## Issues with Java handling `.jar` files
 
 If you see that the `Dash.jar` file is not being opened with by Java (it is in the extracted folder from the `.zip`), you must change the app that `.jar` files are opened with. On your system, you might see the `.jar` file with a WinRAR icon or some other app. First, make sure you have done the first step shown in the Downloading Steps.
 
