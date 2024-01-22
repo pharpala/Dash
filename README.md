@@ -39,7 +39,7 @@ When your adventure ends, the end screen provides options to play again or exit 
 
 ## Operating System
 
-Windows download: [Dash.zip](https://raw.githubusercontent.com/pharpala/Dash/master/downloads/Dashv1.0.zip) \
+Windows download: [Dash.zip](https://raw.githubusercontent.com/pharpala/Dash/master/downloads/Dash-v1.0.zip) \
 
 ## Downloading Steps
 
